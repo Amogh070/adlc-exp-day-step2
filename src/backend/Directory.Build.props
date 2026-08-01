@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <!-- Cosmos SDK build-time check workaround for environments that don't detect Newtonsoft.Json refs reliably. -->
+    <AzureCosmosDisableNewtonsoftJsonCheck>true</AzureCosmosDisableNewtonsoftJsonCheck>
+  </PropertyGroup>
+</Project>

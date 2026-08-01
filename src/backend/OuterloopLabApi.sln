@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OuterloopLabApi", "OuterloopLabApi\\OuterloopLabApi.csproj", "{A3D9D8AB-0B6C-45DE-BF0C-6F8E6E4E0A2B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\\Tests.csproj", "{C0F9A0C7-0A6D-4D1C-9D5E-3A7B5A2F3B10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3D9D8AB-0B6C-45DE-BF0C-6F8E6E4E0A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3D9D8AB-0B6C-45DE-BF0C-6F8E6E4E0A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3D9D8AB-0B6C-45DE-BF0C-6F8E6E4E0A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3D9D8AB-0B6C-45DE-BF0C-6F8E6E4E0A2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0F9A0C7-0A6D-4D1C-9D5E-3A7B5A2F3B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0F9A0C7-0A6D-4D1C-9D5E-3A7B5A2F3B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0F9A0C7-0A6D-4D1C-9D5E-3A7B5A2F3B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0F9A0C7-0A6D-4D1C-9D5E-3A7B5A2F3B10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

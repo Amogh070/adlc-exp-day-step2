@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <AzureCosmosDisableNewtonsoftJsonCheck>true</AzureCosmosDisableNewtonsoftJsonCheck>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.48.0" />
+    <PackageReference Include="Azure.Identity" Version="1.13.0" />
+    <PackageReference Include="Azure.ResourceManager" Version="1.7.0" />
+    <PackageReference Include="Azure.ResourceManager.CosmosDB" Version="1.2.0" />
+  </ItemGroup>
+</Project>
