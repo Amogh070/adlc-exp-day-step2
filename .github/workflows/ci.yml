@@ -48,10 +48,10 @@ jobs:
         run: dotnet restore OuterloopLabApi.sln
 
       - name: Run unit tests
-        run: dotnet test OuterloopLabApi.sln --verbosity normal
+        run: dotnet test OuterloopLabApi.sln --verbosity normal /p:AzureCosmosDisableNewtonsoftJsonCheck=true
 
       - name: Build backend
-        run: dotnet build OuterloopLabApi.sln -c Release
+        run: dotnet build OuterloopLabApi.sln -c Release /p:AzureCosmosDisableNewtonsoftJsonCheck=true
 
   pr-review:
     if: always()
